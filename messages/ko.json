@@ -1,0 +1,55 @@
+{
+    "Navigation": {
+        "about": "소개",
+        "news": "뉴스",
+        "movie": "영화",
+        "goods": "스토어",
+        "models": "3D 모델",
+        "history": "히스토리",
+        "gallery": "갤러리",
+        "contact": "연락처"
+    },
+    "Hero": {
+        "title": "LOVE SEA",
+        "subtitle": "배우 & 모델"
+    },
+    "About": {
+        "title": "소개",
+        "description1": "스토리텔링에 헌신하는 아티스트입니다. 영화와 연극에 대한 열정으로, 깊은 감정적 연결과 진실된 표현을 통해 캐릭터에 생명을 불어넣습니다.",
+        "description2": "무대에서 시작된 저의 여정은 영화와 TV에서 복잡한 역할을 추구하는 것으로 발전했습니다. 저는 취약함의 힘과 침묵의 강함을 믿습니다.",
+        "specialSkill": "특기",
+        "specialSkillValue": "외발자전거",
+        "dance": "댄스 경력",
+        "danceValue": "12년",
+        "status": "현재",
+        "statusValue": "대학교 4학년",
+        "interest": "관심사",
+        "interestValue": "미용"
+    },
+    "News": {
+        "title": "최신 뉴스"
+    },
+    "Movie": {
+        "title": "영화"
+    },
+    "Goods": {
+        "title": "스토어"
+    },
+    "Models": {
+        "title": "3D 모델"
+    },
+    "History": {
+        "title": "히스토리"
+    },
+    "Gallery": {
+        "title": "Selected Works"
+    },
+    "Contact": {
+        "title": "함께 만들어요",
+        "description": "캐스팅, 협업 및 예술 프로젝트 제안을 기다립니다.",
+        "button": "문의하기"
+    },
+    "Footer": {
+        "copyright": "© {year} Venus Photogenic. All rights reserved."
+    }
+}

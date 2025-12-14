@@ -1,0 +1,55 @@
+{
+    "Navigation": {
+        "about": "About",
+        "news": "News",
+        "movie": "Movie",
+        "goods": "Goods Store",
+        "models": "3D Models",
+        "history": "History",
+        "gallery": "Gallery",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "title": "LOVE SEA",
+        "subtitle": "Actress & Model"
+    },
+    "About": {
+        "title": "About Me",
+        "description1": "I am an artist dedicated to the craft of storytelling. With a passion for cinema and theater, I bring characters to life through deep emotional connection and authentic expression.",
+        "description2": "My journey began on the stage, and has since evolved into a pursuit of complex roles in film and television. I believe in the power of vulnerability and the strength of silence.",
+        "specialSkill": "Special Skill",
+        "specialSkillValue": "Unicycle",
+        "dance": "Dance",
+        "danceValue": "12 Years",
+        "status": "Status",
+        "statusValue": "University Senior",
+        "interest": "Interest",
+        "interestValue": "Beauty"
+    },
+    "News": {
+        "title": "Latest News"
+    },
+    "Movie": {
+        "title": "Movies"
+    },
+    "Goods": {
+        "title": "Goods Store"
+    },
+    "Models": {
+        "title": "3D Models"
+    },
+    "History": {
+        "title": "History"
+    },
+    "Gallery": {
+        "title": "Selected Works"
+    },
+    "Contact": {
+        "title": "Let's Create Together",
+        "description": "Open for casting calls, collaborations, and artistic projects.",
+        "button": "GET IN TOUCH"
+    },
+    "Footer": {
+        "copyright": "© {year} Venus Photogenic. All rights reserved."
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Navigation": {
+        "about": "About",
+        "news": "News",
+        "movie": "Movie",
+        "goods": "Goods Store",
+        "models": "3D Models",
+        "history": "History",
+        "gallery": "Gallery",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "title": "LOVE SEA",
+        "subtitle": "女優 & モデル"
+    },
+    "About": {
+        "title": "About Me",
+        "description1": "物語を紡ぐことに情熱を注ぐアーティストです。映画と演劇への愛と共に、深い感情的なつながりと真実の表現を通じてキャラクターに命を吹き込みます。",
+        "description2": "舞台から始まった私の旅は、映画やテレビでの複雑な役柄への挑戦へと進化しました。私は脆さの中にある力と、静寂の強さを信じています。",
+        "specialSkill": "特技",
+        "specialSkillValue": "一輪車",
+        "dance": "ダンス歴",
+        "danceValue": "12年",
+        "status": "現在",
+        "statusValue": "大学4年生",
+        "interest": "興味",
+        "interestValue": "美容"
+    },
+    "News": {
+        "title": "Latest News"
+    },
+    "Movie": {
+        "title": "Movies"
+    },
+    "Goods": {
+        "title": "Goods Store"
+    },
+    "Models": {
+        "title": "3D Models"
+    },
+    "History": {
+        "title": "History"
+    },
+    "Gallery": {
+        "title": "Selected Works"
+    },
+    "Contact": {
+        "title": "Let's Create Together",
+        "description": "キャスティング、コラボレーション、アートプロジェクトのご依頼をお待ちしています。",
+        "button": "お問い合わせ"
+    },
+    "Footer": {
+        "copyright": "© {year} Venus Photogenic. All rights reserved."
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Navigation": {
+        "about": "关于",
+        "news": "新闻",
+        "movie": "电影",
+        "goods": "商店",
+        "models": "3D模型",
+        "history": "历史",
+        "gallery": "作品集",
+        "contact": "联系"
+    },
+    "Hero": {
+        "title": "LOVE SEA",
+        "subtitle": "演员 & 模特"
+    },
+    "About": {
+        "title": "关于我",
+        "description1": "我是一位致力于讲故事的艺术家。怀着对电影和戏剧的热情，我通过深厚的情感联系和真实的表达赋予角色生命。",
+        "description2": "我的旅程始于舞台，现已发展为在电影和电视中追求复杂角色的挑战。我相信脆弱的力量和沉默的强度。",
+        "specialSkill": "特长",
+        "specialSkillValue": "独轮车",
+        "dance": "舞蹈经历",
+        "danceValue": "12年",
+        "status": "现状",
+        "statusValue": "大四学生",
+        "interest": "兴趣",
+        "interestValue": "美容"
+    },
+    "News": {
+        "title": "最新新闻"
+    },
+    "Movie": {
+        "title": "电影"
+    },
+    "Goods": {
+        "title": "商店"
+    },
+    "Models": {
+        "title": "3D模型"
+    },
+    "History": {
+        "title": "历史"
+    },
+    "Gallery": {
+        "title": "精选作品"
+    },
+    "Contact": {
+        "title": "共创未来",
+        "description": "欢迎选角、合作和艺术项目的邀约。",
+        "button": "联系我"
+    },
+    "Footer": {
+        "copyright": "© {year} Venus Photogenic. All rights reserved."
+    }
+}
