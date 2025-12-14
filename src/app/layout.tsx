@@ -19,13 +19,14 @@ export const metadata: Metadata = {
   description: "A showcase of talent, emotion, and dedication.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-  params: { locale }
+  params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   return (
     <html lang={locale || 'ja'} className={`${outfit.variable} ${playfair.variable}`} suppressHydrationWarning>
       <body className="antialiased font-sans text-white" suppressHydrationWarning>
