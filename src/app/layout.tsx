@@ -15,8 +15,21 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "LOVE SEA",
+  title: "LOVE SEA | Actress & Model",
   description: "A showcase of talent, emotion, and dedication.",
+  openGraph: {
+    title: "LOVE SEA | Actress & Model",
+    description: "A showcase of talent, emotion, and dedication.",
+    images: [
+      {
+        url: "/images/logo.jpg",
+        width: 800,
+        height: 600,
+        alt: "LOVE SEA Logo",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default async function RootLayout({
