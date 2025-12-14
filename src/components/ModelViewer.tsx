@@ -4,7 +4,9 @@ import { useRef, Suspense, useLayoutEffect } from "react";
 import { Canvas, useLoader, useFrame } from "@react-three/fiber";
 import { OrbitControls, Stage, Environment } from "@react-three/drei";
 import * as THREE from "three";
+// @ts-ignore
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
+// @ts-ignore
 import { MTLLoader } from "three/examples/jsm/loaders/MTLLoader";
 
 function Model() {
@@ -17,7 +19,7 @@ function Model() {
     const meshRef = useRef<THREE.Group>(null);
 
     useLayoutEffect(() => {
-        obj.traverse((child) => {
+        obj.traverse((child: THREE.Object3D) => {
             if ((child as any).isMesh) {
                 const mesh = child as THREE.Mesh;
                 const oldMaterial = mesh.material as THREE.MeshStandardMaterial;
