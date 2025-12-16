@@ -20,14 +20,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "LOVE SEA | Actress & Model",
     description: "A showcase of talent, emotion, and dedication.",
-    images: [
-      {
-        url: "/images/logo.jpg",
-        width: 800,
-        height: 600,
-        alt: "LOVE SEA Logo",
-      },
-    ],
     type: "website",
   },
 };
