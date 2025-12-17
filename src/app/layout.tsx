@@ -15,16 +15,18 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://lovesea.example.com'),
+  metadataBase: new URL('https://love-sea.netlify.app'),
   title: "LOVE SEA | Actress & Model",
   description: "A showcase of talent, emotion, and dedication.",
   openGraph: {
     title: "LOVE SEA | Actress & Model",
     description: "A showcase of talent, emotion, and dedication.",
     type: "website",
+    url: 'https://love-sea.netlify.app',
+    siteName: 'LOVE SEA',
     images: [
       {
-        url: '/opengraph-image.jpg',
+        url: 'https://love-sea.netlify.app/opengraph-image.jpg',
         width: 1200,
         height: 630,
         alt: 'LOVE SEA | Actress & Model',
@@ -35,7 +37,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "LOVE SEA | Actress & Model",
     description: "A showcase of talent, emotion, and dedication.",
-    images: ['/opengraph-image.jpg'],
+    images: ['https://love-sea.netlify.app/opengraph-image.jpg'],
   },
 };
 
