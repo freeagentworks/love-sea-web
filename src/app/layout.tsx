@@ -15,12 +15,27 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://lovesea.example.com'),
   title: "LOVE SEA | Actress & Model",
   description: "A showcase of talent, emotion, and dedication.",
   openGraph: {
     title: "LOVE SEA | Actress & Model",
     description: "A showcase of talent, emotion, and dedication.",
     type: "website",
+    images: [
+      {
+        url: '/opengraph-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'LOVE SEA | Actress & Model',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "LOVE SEA | Actress & Model",
+    description: "A showcase of talent, emotion, and dedication.",
+    images: ['/opengraph-image.jpg'],
   },
 };
 
