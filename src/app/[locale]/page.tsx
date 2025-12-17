@@ -210,7 +210,139 @@ export default function Home() {
             {/* Goods Section */}
             <section id="goods" className="py-20 px-4 md:px-20 max-w-6xl mx-auto">
                 <h2 className="text-4xl md:text-6xl font-serif text-center mb-16">{t('Goods.title')}</h2>
-                <div className="text-center text-gray-400">Coming Soon...</div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* LOVE SEA 2025 */}
+                    <a
+                        href="https://suzuri.jp/gigagent/designs/19112878"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group block"
+                    >
+                        <Card className="overflow-hidden transition-all duration-500 group-hover:scale-[1.02] group-hover:shadow-2xl group-hover:shadow-pink-500/20 h-full">
+                            <div className="flex flex-row h-full">
+                                <div className="relative w-1/3 min-h-[180px] overflow-hidden">
+                                    <Image
+                                        src="https://og.suzuri.jp/materials/19112878.webp"
+                                        alt="LOVE SEA 2025"
+                                        fill
+                                        sizes="(max-width: 768px) 33vw, 16vw"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                </div>
+                                <div className="flex-1 p-6 flex flex-col justify-center space-y-3">
+                                    <h3 className="text-xl font-serif text-[#ffc0cb] group-hover:text-white transition-colors">LOVE SEA 2025</h3>
+                                    <p className="text-sm text-gray-400">オリジナルグッズ on SUZURI</p>
+                                    <div className="flex items-center gap-2 text-[#00ffcc] text-sm">
+                                        <span>ショップで見る</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                    </a>
+
+                    {/* LOVE SEA 2025-3 */}
+                    <a
+                        href="https://suzuri.jp/gigagent/designs/19112842"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group block"
+                    >
+                        <Card className="overflow-hidden transition-all duration-500 group-hover:scale-[1.02] group-hover:shadow-2xl group-hover:shadow-pink-500/20 h-full">
+                            <div className="flex flex-row h-full">
+                                <div className="relative w-1/3 min-h-[180px] overflow-hidden">
+                                    <Image
+                                        src="https://og.suzuri.jp/materials/19112842.webp"
+                                        alt="LOVE SEA 2025-3"
+                                        fill
+                                        sizes="(max-width: 768px) 33vw, 16vw"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                </div>
+                                <div className="flex-1 p-6 flex flex-col justify-center space-y-3">
+                                    <h3 className="text-xl font-serif text-[#ffc0cb] group-hover:text-white transition-colors">LOVE SEA 2025-3</h3>
+                                    <p className="text-sm text-gray-400">オリジナルグッズ on SUZURI</p>
+                                    <div className="flex items-center gap-2 text-[#00ffcc] text-sm">
+                                        <span>ショップで見る</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                    </a>
+
+                    {/* LOVE SEA 2025-4 */}
+                    <a
+                        href="https://suzuri.jp/gigagent/designs/19113027"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group block"
+                    >
+                        <Card className="overflow-hidden transition-all duration-500 group-hover:scale-[1.02] group-hover:shadow-2xl group-hover:shadow-pink-500/20 h-full">
+                            <div className="flex flex-row h-full">
+                                <div className="relative w-1/3 min-h-[180px] overflow-hidden">
+                                    <Image
+                                        src="https://og.suzuri.jp/materials/19113027.webp"
+                                        alt="LOVE SEA 2025-4"
+                                        fill
+                                        sizes="(max-width: 768px) 33vw, 16vw"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                </div>
+                                <div className="flex-1 p-6 flex flex-col justify-center space-y-3">
+                                    <h3 className="text-xl font-serif text-[#ffc0cb] group-hover:text-white transition-colors">LOVE SEA 2025-4</h3>
+                                    <p className="text-sm text-gray-400">オリジナルグッズ on SUZURI</p>
+                                    <div className="flex items-center gap-2 text-[#00ffcc] text-sm">
+                                        <span>ショップで見る</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                    </a>
+
+                    {/* LOVE SEA 2025-5 */}
+                    <a
+                        href="https://suzuri.jp/gigagent/designs/19113288"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group block"
+                    >
+                        <Card className="overflow-hidden transition-all duration-500 group-hover:scale-[1.02] group-hover:shadow-2xl group-hover:shadow-pink-500/20 h-full">
+                            <div className="flex flex-row h-full">
+                                <div className="relative w-1/3 min-h-[180px] overflow-hidden">
+                                    <Image
+                                        src="https://og.suzuri.jp/materials/19113288.webp"
+                                        alt="LOVE SEA 2025-5"
+                                        fill
+                                        sizes="(max-width: 768px) 33vw, 16vw"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                </div>
+                                <div className="flex-1 p-6 flex flex-col justify-center space-y-3">
+                                    <h3 className="text-xl font-serif text-[#ffc0cb] group-hover:text-white transition-colors">LOVE SEA 2025-5</h3>
+                                    <p className="text-sm text-gray-400">オリジナルグッズ on SUZURI</p>
+                                    <div className="flex items-center gap-2 text-[#00ffcc] text-sm">
+                                        <span>ショップで見る</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                    </a>
+                </div>
             </section>
 
             {/* 3D Models Section */}

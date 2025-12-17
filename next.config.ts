@@ -16,6 +16,13 @@ const nextConfig: NextConfig = {
         search: '',
       },
     ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'og.suzuri.jp',
+        pathname: '/materials/**',
+      },
+    ],
   },
 };
 
